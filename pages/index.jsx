@@ -293,7 +293,7 @@ export default () => {
                             </div>
                         </div>
                         <div className = 'col-lg-8 mx-auto mb-5'>
-                            <div className = 'row border rounded-1x p-4 p-md-5'>
+                            <div className = 'row border rounded-1x px-3 py-5 p-md-5'>
                                 <div className = 'col-md-6 mb-4'>
                                     <div>
                                         <p className = 'text-muted bold text-capitalize'>full name</p>
