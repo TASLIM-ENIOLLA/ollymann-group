@@ -15,7 +15,7 @@ export default ({Component, pageProps}) => {
                 <link rel="stylesheet" href="/css/aos.css" />
                 <link rel="stylesheet" href="/b-icon/font/bootstrap-icons.css" />
                 <link href = '/img/logo.png' rel = 'shortcut icon' />
-                <title>Bootstrap Template Atlas</title>
+                <title>Ollymann Group</title>
             </Head>
             <Component className = "po-rel" style = {{zIndex: 0}} {...pageProps} />
             <div id = '__popup'></div>
