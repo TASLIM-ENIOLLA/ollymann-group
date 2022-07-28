@@ -13,11 +13,11 @@ export default () => {
                 <div className = 'container'>
                     <div className = 'row j-c-space-between a-i-c py-4'>
                         <div className = 'col-lg-auto'>
-                            <div className = 'flex-h a-i-c'>
-                                <div className = 'mr-3 col-md-d-none'>
-                                    <button className = 'bg-clear border-0 p-2 bi bi-filter-left fa-3x'></button>
+                            <div className = 'row a-i-c'>
+                                <div className = 'mr-3 col-md-d-none col-auto'>
+                                    <button className = 'bg-clear outline-0 border-0 p-2 bi bi-filter-left fa-3x'></button>
                                 </div>  
-                                <a href = '/'>
+                                <a href = '/' className = 'col-auto'>
                                     <img src = '/img/ollymann-group.png' width = '100' />
                                 </a>
                             </div>
