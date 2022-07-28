@@ -12,6 +12,11 @@ export default () => {
             <div className = 'po-sticky top-0 left-0 bg-white shadow' style = {{zIndex: 1000}}>
                 <div className = 'container'>
                     <div className = 'row j-c-space-between a-i-c py-4'>
+                        <div className = 'col-md-d-none col-auto'>
+                            <div>
+                                <button className = 'bg-clear border-0 p-2 bi bi-filter fo-s-20'></button>
+                            </div>   
+                         </div>
                         <div className = 'col-lg-auto'>
                             <div>
                                 <a href = '/'>
@@ -19,7 +24,7 @@ export default () => {
                                 </a>
                             </div>
                         </div>
-                        <div className = 'col-lg-auto'>
+                        <div className = 'col-d-none col-md-d-block col-lg-auto'>
                             <div>
                                 <button className = 'bg-clear border-0 text-capitalize d-inline-block text-dark px-3 bold transit mx-3'>home</button>
                                 <button className = 'bg-clear border-0 text-capitalize d-inline-block text-dark px-3 bold transit mx-3'>about</button>
@@ -200,8 +205,8 @@ export default () => {
                     </div>
                     <div className = 'col-lg-6 mb-5'>
                         <div className = 'row'>
-                            <div className = 'col-md-4'>
-                                <div style = {{maxHeight: '150px'}} className = 'overflow-0'>
+                            <div className = 'col-md-4 mb-3'>
+                                <div style = {{maxHeight: '250px'}} className = 'overflow-0'>
                                     <img src = '/img/member-3.jpg' className = 'd-block w-100' />
                                 </div>
                             </div>
@@ -220,8 +225,8 @@ export default () => {
                     </div>
                     <div className = 'col-lg-6 mb-5'>
                         <div className = 'row'>
-                            <div className = 'col-md-4'>
-                                <div style = {{maxHeight: '150px'}} className = 'overflow-0'>
+                            <div className = 'col-md-4 mb-3'>
+                                <div style = {{maxHeight: '250px'}} className = 'overflow-0'>
                                     <img src = '/img/member-2.jpg' className = 'd-block w-100' />
                                 </div>
                             </div>
@@ -240,8 +245,8 @@ export default () => {
                     </div>
                     <div className = 'col-lg-6 mb-5'>
                         <div className = 'row'>
-                            <div className = 'col-md-4'>
-                                <div style = {{maxHeight: '150px'}} className = 'overflow-0'>
+                            <div className = 'col-md-4 mb-3'>
+                                <div style = {{maxHeight: '250px'}} className = 'overflow-0'>
                                     <img src = '/img/member-1.jpg' className = 'd-block w-100' />
                                 </div>
                             </div>
@@ -260,8 +265,8 @@ export default () => {
                     </div>
                     <div className = 'col-lg-6 mb-5'>
                         <div className = 'row'>
-                            <div className = 'col-md-4'>
-                                <div style = {{maxHeight: '150px'}} className = 'overflow-0'>
+                            <div className = 'col-md-4 mb-3'>
+                                <div style = {{maxHeight: '250px'}} className = 'overflow-0'>
                                     <img src = '/img/member-3.jpg' className = 'd-block w-100' />
                                 </div>
                             </div>
@@ -290,8 +295,8 @@ export default () => {
                     </div>
                     <div className = 'col-lg-6 mb-5'>
                         <div className = 'row'>
-                            <div className = 'col-md-4'>
-                                <div style = {{maxHeight: '150px'}} className = 'overflow-0'>
+                            <div className = 'col-md-4 mb-3'>
+                                <div style = {{maxHeight: '250px'}} className = 'overflow-0'>
                                     <img src = '/img/member-3.jpg' className = 'd-block w-100' />
                                 </div>
                             </div>
@@ -310,8 +315,8 @@ export default () => {
                     </div>
                     <div className = 'col-lg-6 mb-5'>
                         <div className = 'row'>
-                            <div className = 'col-md-4'>
-                                <div style = {{maxHeight: '150px'}} className = 'overflow-0'>
+                            <div className = 'col-md-4 mb-3'>
+                                <div style = {{maxHeight: '250px'}} className = 'overflow-0'>
                                     <img src = '/img/member-2.jpg' className = 'd-block w-100' />
                                 </div>
                             </div>
@@ -330,8 +335,8 @@ export default () => {
                     </div>
                     <div className = 'col-lg-6 mb-5'>
                         <div className = 'row'>
-                            <div className = 'col-md-4'>
-                                <div style = {{maxHeight: '150px'}} className = 'overflow-0'>
+                            <div className = 'col-md-4 mb-3'>
+                                <div style = {{maxHeight: '250px'}} className = 'overflow-0'>
                                     <img src = '/img/member-1.jpg' className = 'd-block w-100' />
                                 </div>
                             </div>
@@ -350,8 +355,8 @@ export default () => {
                     </div>
                     <div className = 'col-lg-6 mb-5'>
                         <div className = 'row'>
-                            <div className = 'col-md-4'>
-                                <div style = {{maxHeight: '150px'}} className = 'overflow-0'>
+                            <div className = 'col-md-4 mb-3'>
+                                <div style = {{maxHeight: '250px'}} className = 'overflow-0'>
                                     <img src = '/img/member-3.jpg' className = 'd-block w-100' />
                                 </div>
                             </div>
@@ -370,7 +375,7 @@ export default () => {
                     </div>
                 </div>
             </div>
-            <footer className = 'p-5 theme-bg'>
+            <footer className = 'py-5 theme-bg'>
                 <div className = 'container py-4'>
                     <div className = 'row'>
                         <div className = 'col-12'>
