@@ -288,86 +288,41 @@ export default () => {
                     <div className = 'row py-5 my-5'>
                         <div className = 'col-12'>
                             <div className = 'mb-5 pb-4'>
-                                <p className = 'text-uppercase text-center text-muted'>directors</p>
-                                <h2 className = 'text-capitalize bold text-dark text-center line-height-120pcent px-0'>our creative members</h2>
+                                <p className = 'text-uppercase text-center text-muted'>contact</p>
+                                <h2 className = 'text-capitalize bold text-dark text-center line-height-120pcent px-0'>leave us a message</h2>
                             </div>
                         </div>
-                        <div className = 'col-lg-6 mb-5'>
-                            <div className = 'row'>
-                                <div className = 'col-md-4 mb-3'>
-                                    <div style = {{maxHeight: '250px'}} className = 'overflow-0'>
-                                        <img src = '/img/member-3.jpg' className = 'd-block w-100' />
-                                    </div>
-                                </div>
-                                <div className = 'col-md-8'>
+                        <div className = 'col-lg-8 mx-auto mb-5'>
+                            <div className = 'row border rounded-1x p-5'>
+                                <div className = 'col-md-6 mb-4'>
                                     <div>
-                                        <h5 className = 'bold text-dark text-capitalize'>Jane Doe</h5>
-                                        <p className = 'text-primary text-capitalize'>managing director</p>
-                                        <div className = 'text-muted text-capitalize'>lorem um dolor sit amet cipsum dolor sit amet consectuer adipising lorem ipsonsectuer</div>
-                                        <div className = 'pt-4'>
-                                            <a href = '' className = 'bi text-muted mr-4 fo-s-22 bi-linkedin'></a>
-                                            <a href = '' className = 'bi text-muted mr-4 fo-s-22 bi-facebook'></a>
-                                        </div>
+                                        <p className = 'text-muted bold text-capitalize'>full name</p>
+                                        <input type = 'text' className = 'd-block w-100 p-3 border rounded-lg' />
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div className = 'col-lg-6 mb-5'>
-                            <div className = 'row'>
-                                <div className = 'col-md-4 mb-3'>
-                                    <div style = {{maxHeight: '250px'}} className = 'overflow-0'>
-                                        <img src = '/img/member-2.jpg' className = 'd-block w-100' />
-                                    </div>
-                                </div>
-                                <div className = 'col-md-8'>
+                                <div className = 'col-md-6 mb-4'>
                                     <div>
-                                        <h5 className = 'bold text-dark text-capitalize'>Jane Doe</h5>
-                                        <p className = 'text-primary text-capitalize'>managing director</p>
-                                        <div className = 'text-muted text-capitalize'>lorem um dolor sit amet cipsum dolor sit amet consectuer adipising lorem ipsonsectuer</div>
-                                        <div className = 'pt-4'>
-                                            <a href = '' className = 'bi text-muted mr-4 fo-s-22 bi-linkedin'></a>
-                                            <a href = '' className = 'bi text-muted mr-4 fo-s-22 bi-facebook'></a>
-                                        </div>
+                                        <p className = 'text-muted bold text-capitalize'>email address</p>
+                                        <input type = 'email' className = 'd-block w-100 p-3 border rounded-lg' />
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div className = 'col-lg-6 mb-5'>
-                            <div className = 'row'>
-                                <div className = 'col-md-4 mb-3'>
-                                    <div style = {{maxHeight: '250px'}} className = 'overflow-0'>
-                                        <img src = '/img/member-1.jpg' className = 'd-block w-100' />
-                                    </div>
-                                </div>
-                                <div className = 'col-md-8'>
+                                <div className = 'col-12 mb-4'>
                                     <div>
-                                        <h5 className = 'bold text-dark text-capitalize'>Jane Doe</h5>
-                                        <p className = 'text-primary text-capitalize'>managing director</p>
-                                        <div className = 'text-muted text-capitalize'>lorem um dolor sit amet cipsum dolor sit amet consectuer adipising lorem ipsonsectuer</div>
-                                        <div className = 'pt-4'>
-                                            <a href = '' className = 'bi text-muted mr-4 fo-s-22 bi-linkedin'></a>
-                                            <a href = '' className = 'bi text-muted mr-4 fo-s-22 bi-facebook'></a>
-                                        </div>
+                                        <p className = 'text-muted bold text-capitalize'>subject</p>
+                                        <input type = 'text' className = 'd-block w-100 p-3 border rounded-lg' />
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div className = 'col-lg-6 mb-5'>
-                            <div className = 'row'>
-                                <div className = 'col-md-4 mb-3'>
-                                    <div style = {{maxHeight: '250px'}} className = 'overflow-0'>
-                                        <img src = '/img/member-3.jpg' className = 'd-block w-100' />
-                                    </div>
-                                </div>
-                                <div className = 'col-md-8'>
+                                <div className = 'col-12 mb-4'>
                                     <div>
-                                        <h5 className = 'bold text-dark text-capitalize'>Jane Doe</h5>
-                                        <p className = 'text-primary text-capitalize'>managing director</p>
-                                        <div className = 'text-muted text-capitalize'>lorem um dolor sit amet cipsum dolor sit amet consectuer adipising lorem ipsonsectuer</div>
-                                        <div className = 'pt-4'>
-                                            <a href = '' className = 'bi text-muted mr-4 fo-s-22 bi-linkedin'></a>
-                                            <a href = '' className = 'bi text-muted mr-4 fo-s-22 bi-facebook'></a>
-                                        </div>
+                                        <p className = 'text-muted bold text-capitalize'>message</p>
+                                        <textarea rows = '5' className = 'd-block w-100 p-3 border rounded-lg resize-0'></textarea>
+                                    </div>
+                                </div>
+                                <div className = 'col-12 my-4'>
+                                    <div>
+                                        <button type = 'button' className = 'd-block w-100 p-3 text-white btn btn-primary shadow text-capitalize'>
+                                            send message
+                                        </button>
                                     </div>
                                 </div>
                             </div>
