@@ -13,9 +13,9 @@ export default () => {
                 <div className = 'container'>
                     <div className = 'row j-c-space-between a-i-c py-4'>
                         <div className = 'col-lg-auto'>
-                            <div>
-                                <div className = 'mr-4'>
-                                    <button className = 'bg-clear border-0 p-2 bi bi-filter fa-2x'></button>
+                            <div className = 'flex-h a-i-c'>
+                                <div className = 'mr-4 col-md-d-none'>
+                                    <button className = 'bg-clear border-0 p-2 bi bi-filter-left fa-3x'></button>
                                 </div>  
                                 <a href = '/'>
                                     <img src = '/img/ollymann-group.png' width = '100' />
