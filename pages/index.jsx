@@ -407,7 +407,7 @@ export default () => {
                         </div>
                         <div className = 'col-lg-7 mb-5'>
                             <div className = 'row'>
-                                <div className = 'col-md-6 col-lg-4'>
+                                <div className = 'col-md-6 col-lg-4 mb-5'>
                                     <div>
                                         <h5 className = 'bold text-white mb-5'>Company</h5>
                                         <div className = 'text-capitalize text-white'>
@@ -418,7 +418,7 @@ export default () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className = 'col-md-6 col-lg-4'>
+                                <div className = 'col-md-6 col-lg-4 mb-5'>
                                     <div>
                                         <h5 className = 'bold text-white mb-5'>Marketing</h5>
                                         <div className = 'text-capitalize text-white'>
@@ -429,7 +429,7 @@ export default () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className = 'col-md-6 col-lg-4'>
+                                <div className = 'col-md-6 col-lg-4 mb-5'>
                                     <div>
                                         <h5 className = 'bold text-white mb-5'>About</h5>
                                         <div className = 'text-capitalize text-white'>
