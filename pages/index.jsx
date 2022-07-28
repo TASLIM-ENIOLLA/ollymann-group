@@ -375,7 +375,7 @@ export default () => {
                     </div>
                 </div>
             </main>
-            <footer className = 'py-5 theme-bg'>
+            <footer className = 'py-5 theme-bg px-4'>
                 <div className = 'container py-4'>
                     <div className = 'row'>
                         <div className = 'col-12'>
