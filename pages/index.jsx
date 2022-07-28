@@ -14,7 +14,7 @@ export default () => {
                     <div className = 'row j-c-space-between a-i-c py-4'>
                         <div className = 'col-lg-auto'>
                             <div className = 'flex-h a-i-c'>
-                                <div className = 'mr-4 col-md-d-none'>
+                                <div className = 'mr-3 col-md-d-none'>
                                     <button className = 'bg-clear border-0 p-2 bi bi-filter-left fa-3x'></button>
                                 </div>  
                                 <a href = '/'>
