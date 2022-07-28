@@ -293,7 +293,7 @@ export default () => {
                             </div>
                         </div>
                         <div className = 'col-lg-8 mx-auto mb-5'>
-                            <div className = 'row border rounded-1x p-5'>
+                            <div className = 'row border rounded-1x p-4 p-md-5'>
                                 <div className = 'col-md-6 mb-4'>
                                     <div>
                                         <p className = 'text-muted bold text-capitalize'>full name</p>
@@ -320,7 +320,7 @@ export default () => {
                                 </div>
                                 <div className = 'col-12 my-4'>
                                     <div>
-                                        <button type = 'button' className = 'd-block w-100 p-3 text-white btn btn-primary shadow text-capitalize'>
+                                        <button type = 'button' className = 'd-block w-100 p-3 text-white btn theme-bg shadow text-capitalize'>
                                             send message
                                         </button>
                                     </div>
