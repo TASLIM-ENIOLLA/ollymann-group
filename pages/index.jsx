@@ -12,13 +12,11 @@ export default () => {
             <div className = 'po-sticky top-0 left-0 bg-white shadow' style = {{zIndex: 1000}}>
                 <div className = 'container'>
                     <div className = 'row j-c-space-between a-i-c py-4'>
-                        <div className = 'col-md-d-none col-auto'>
-                            <div>
-                                <button className = 'bg-clear border-0 p-2 bi bi-filter fo-s-20'></button>
-                            </div>   
-                         </div>
                         <div className = 'col-lg-auto'>
                             <div>
+                                <div className = 'mr-4'>
+                                    <button className = 'bg-clear border-0 p-2 bi bi-filter fa-2x'></button>
+                                </div>  
                                 <a href = '/'>
                                     <img src = '/img/ollymann-group.png' width = '100' />
                                 </a>
